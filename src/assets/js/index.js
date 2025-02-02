@@ -9,7 +9,6 @@ const os = require('os');
 import { config, database } from './utils.js';
 const nodeFetch = require("node-fetch");
 
-
 class Splash {
     constructor() {
         this.splash = document.querySelector(".splash");
@@ -162,3 +161,4 @@ document.addEventListener("keydown", (e) => {
     }
 })
 new Splash();
+

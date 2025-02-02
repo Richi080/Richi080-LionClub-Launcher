@@ -1,7 +1,7 @@
 {
     "name": "LionClub-Launcher",
     "preductname": "LionClub Launcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Launcher oficial de Lion Club",
     "main": "src/app.js",
     "author": {
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/Richi080/Richi080-LionClub-Launcher/refs/heads/master/LionStudios_Icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -22,6 +22,7 @@
         "ignore": "**/test"
     },
     "dependencies": {
+        "discord-rpc": "^4.0.1", 
         "electron-updater": "^6.1.8",
         "minecraft-java-core": "^3.10.4",
         "node-bdd": "^2.0.4",
