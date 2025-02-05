@@ -1,7 +1,7 @@
 {
     "name": "LionClub-Launcher",
     "preductname": "LionClub Launcher",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Launcher oficial de Lion Club",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact.lionclub@gmail.com",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://lionclublauncher.x10.mx/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
